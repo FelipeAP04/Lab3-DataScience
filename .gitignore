@@ -1,0 +1,32 @@
+# === Datos ===
+# El dataset ASL Alphabet (~87,000 imagenes, varios GB) NO se versiona.
+# Se descarga de Kaggle: https://www.kaggle.com/datasets/grassknoted/asl-alphabet
+data/
+
+# Cache de imagenes preprocesadas / arreglos numpy generados por el notebook
+*.npy
+*.npz
+processed/
+
+# === Entornos virtuales ===
+.venv/
+venv/
+env/
+
+# === Cache de Python ===
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# === Jupyter ===
+.ipynb_checkpoints/
+
+# === Modelos / artefactos pesados ===
+*.keras
+*.h5
+models/
+
+# === Sistema operativo / editores ===
+.DS_Store
+.vscode/
+.idea/
