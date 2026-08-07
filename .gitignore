@@ -26,6 +26,9 @@ __pycache__/
 *.h5
 models/
 
+# === Fotografías personales para la prueba externa ===
+mis_fotos/
+
 # === Sistema operativo / editores ===
 .DS_Store
 .vscode/
